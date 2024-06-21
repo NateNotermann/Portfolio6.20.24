@@ -1,25 +1,32 @@
-body {
-    width: 100vw;
-    margin: 0;
-    padding: 1;
-    /* box-sizing: border-box; */
-    /* border: 1px solid red; */
-
-}
-
-div {
-    width: 100vw;
+/* * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
-    /* border: 1px solid black; */
+    box-sizing: border-box;
+} */
 
+body {
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid red; */
+    margin: 0;
+    padding: 0;
+    position: relative; 
+}
+
+.container {
+    position: absolute;
+    /* bottom: 0;
+    left: 0;
+    top: auto; */
+    width: 100%;
+    /* border: 2px solid green; */
 }
 
 #lottiePlayer {
-    width: 99vw;
-    margin: 0;
-    padding: 0px;
+    width: 100%;
+    /* height: auto; */
     /* border: 1px solid blue; */
-
+    padding: 5px;
+    /* display: block; */
+    background-color: transparent;
 }
