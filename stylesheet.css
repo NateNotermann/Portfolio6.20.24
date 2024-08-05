@@ -5,12 +5,20 @@
 } */
 
 body {
-    width: 100vw;
+    /* width: 100vw;
     height: 100vh;
-    /* border: 2px solid red; */
     margin: 0;
     padding: 0;
-    position: relative; 
+    position: relative;  */
+
+    border: 2px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
 }
 
 .container {
@@ -30,3 +38,16 @@ body {
     /* display: block; */
     background-color: transparent;
 }
+/* .box {
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+} */
+
+.box {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid red;
+  }

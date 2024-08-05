@@ -8,9 +8,10 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="stylesheet.css">
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     </head>
     <body>
-        <div id="div" class="container delay">
+        <!-- <div id="div" class="container delay">
             <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" 
                 type="module"></script>
             <dotlottie-player 
@@ -22,17 +23,33 @@
                 loop 
                 autoplay>
             </dotlottie-player>
-        </div>
-<div id="newDiv" >
-
-    
-</div>
+        </div> -->
+<!-- <div id="newDiv" >
+</div> -->
 
 
         
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <script src="index.js" async defer></script>
+        <!-- <script src="index.js" async defer></script> -->
+       <!-- <script type="module" src="src/app.js"></script> -->
+        
+        <div class="box green"></div>
+
+        <!-- <script scr="src/gsap.min.js"></script> -->
+        
+        <!-- <script>
+            document.addEventListener("DOMContentLoaded", (event) => {
+                gsap.to(".box", {
+                    duration: 3, 
+                    rotation: 360, 
+                    scale: 2,
+                    });
+                    
+                    })
+                </script>
+                 -->
+        <script type="module" src="src/app.js"></script>
     </body>
 </html>
